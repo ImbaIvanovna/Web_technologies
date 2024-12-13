@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Собрать ланч</title>
     <link rel="stylesheet" href="makeorder.css">
-    <script src="D:\Sites\secondary_lab\JS script\Data.js"></script>
-    <script src="D:\Sites\secondary_lab\JS script\Script.js"></script>
+    <script src="JS script/Data.js"></script>
+    <script src="JS script/Script.js"></script>
 </head>
 <body>
     <header>
@@ -24,26 +24,50 @@
 
         <section> 
             <h2>Выберите суп</h2> 
+            <div class="filters">
+                <button data-kind="fish">Рыбные</button>
+                <button data-kind="meat">Мясные</button>
+                <button data-kind="veg">Вегетарианские</button>
+              </div>
               <div class="meals-grid" id="soup-grid"></div>
         </section> 
  
         <section> 
             <h2>Выберите главное блюдо</h2> 
+            <div class="filters">
+                <button data-kind="fish">Рыбные</button>
+                <button data-kind="meat">Мясные</button>
+                <button data-kind="veg">Вегетарианские</button>
+              </div>
               <div class="meals-grid" id="main-grid"></div>
         </section> 
     
         <section>
             <h2>Салаты и стартеры</h2>
+            <div class="filters">
+              <button data-kind="fish">Рыбные</button>
+              <button data-kind="meat">Мясные</button>
+              <button data-kind="veg">Вегетарианские</button>
+            </div>
             <div class="meals-grid" id="salad-grid"></div>
           </section>
 
           <section>
             <h2>Десерты</h2>
+            <div class="filters">
+              <button data-kind="small">Маленькая порция</button>
+              <button data-kind="medium">Средняя порция</button>
+              <button data-kind="large">Большая порция</button>
+            </div>
             <div class="meals-grid" id="dessert-grid"></div>
           </section>
  
         <section> 
             <h2>Напитки</h2> 
+            <div class="filters">
+                <button data-kind="cold">Холодные</button>
+                <button data-kind="hot">Горячие</button>
+            </div>
             <div class="meals-grid" id="drink-grid"></div>
         </section>
         
